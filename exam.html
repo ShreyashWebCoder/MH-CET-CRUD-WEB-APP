@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXAM</title>
+    <link rel="stylesheet" href="./css/exam.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container-fluid">
+        <div class="container header">
+          <div class="top-left">
+            <div class="profile-img">
+              <img src="./img/My_Photo_2.png.jpg" />
+            </div>
+            <div class="studentInfo">
+              <div class="studentName">
+                <h3>Student Name :</h3>
+                <span id="studentName"></span>
+              </div>
+              <div class="studentEmail">
+                <h3>Email :</h3>
+                <span id="studentEmail"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="top-right">
+            <div class="studentEnrollNo">
+              <h3>Enrollment No. :</h3>
+              <span id="studentEnrollNo"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Exam-Section -->
+    <div class="container">
+      <div class="exam-section">
+        <div class="exam-left">
+          <div class="allQueBox">
+            <!-- ------------- -->
+            <div id="queNo"></div>
+          </div>
+
+          <div class="queAboutInfo">
+            <div id="queAbout">
+              <h3>Total Questions :</h3>
+              <span id="totalQue">1</span>
+            </div>
+            <div id="queAbout">
+              <h3>Answerd :</h3>
+              <span id="answered">2</span>
+            </div>
+            <div id="queAbout">
+              <h3>Not Answered :</h3>
+              <span id="notAnswered">3</span>
+            </div>
+            <div id="queAbout">
+              <h3>Not Visited :</h3>
+              <span id="notVisit">4</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="exam-right">
+          <div class="question">
+            <div class="queIndex">
+              <h2>1.</h2>
+            </div>
+            <h2 id="quizQuestion">What is HTML ?</h2>
+          </div>
+
+          <div class="options">
+            <div>
+              <input type="radio" name="option" />
+              <label for="A">A</label>
+            </div>
+            <div>
+              <input type="radio" name="option" />
+              <label for="B">B</label>
+            </div>
+            <div>
+              <input type="radio" name="option" />
+              <label for="C">C</label>
+            </div>
+            <div>
+              <input type="radio" name="option" />
+              <label for="D">D</label>
+            </div>
+          </div>
+          <div class="examBtn">
+            <button class="btn prevBtn">Previous</button>
+            <button class="btn nextBtn">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/exam.js"></script>
+  </body>
+</html>

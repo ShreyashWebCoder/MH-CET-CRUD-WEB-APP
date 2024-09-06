@@ -1,0 +1,75 @@
+.navBarBG {
+  background-color: #80808032;
+}
+
+.addNew {
+  display: flex;
+  justify-content: space-between;
+}
+.addNew > button {
+  /* color: #000; */
+  font-weight: 500;
+}
+
+/* AddNewContainer  */
+.addDataContiner {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.addData {
+  min-height: 30vh;
+  width: 33vw;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 6rem;
+}
+.addData > h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#studentForm> label,
+input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+  font-weight: 500;
+}
+.addData > button {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 5rem;
+  margin-top: 3em;
+  font-weight: 600;
+  /* color: #000; */
+}
+button:hover {
+  color: #000;
+}
+.addData > i {
+  margin-left: 23rem;
+  font-size: 1.5rem;
+}
+
+#icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+i {
+  cursor: pointer;
+}
+
+/* thead > tr{
+  background-color: #80808032;
+} */

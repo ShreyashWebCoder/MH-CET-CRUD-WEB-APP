@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid {
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: #fff;
+  padding: 1rem;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 98vw;
+  height: 18vh;
+  background-color: #4b4a4a3c;
+  border: 1px solid #000;
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-left {
+  width: 50vw;
+  height: 16vh;
+  /* background-color: red; */
+  display: flex;
+}
+.profile-img {
+  width: 10vw;
+  height: 15vh;
+  /* background-color: rgb(85, 80, 80); */
+}
+.profile-img > img {
+  width: 10vw;
+  height: 15vh;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: 1px solid #000;
+  border-width: 2px;
+}
+.studentInfo {
+  margin-left: 1rem;
+  padding: 1rem;
+}
+
+.studentName,
+.studentEmail,
+.studentEnrollNo {
+  display: flex;
+  column-gap: 20px;
+}
+.studentEmail {
+  display: flex;
+  margin-top: 1rem;
+}
+.studentEmail > span {
+  margin-left: 4.8rem;
+}
+.top-right {
+  width: 20vw;
+  height: 16vh;
+  /* background-color: yellow; */
+  display: flex;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.studentEnrollNo {
+  padding: 1rem;
+}
+
+/* span */
+span{
+  border: 1px solid #ffffffe8;
+  border-radius: 0.7rem;
+  border-width: 3px;
+  border-style: inset;
+  padding: 0.7rem;
+  background-color: #ffffffc7;
+  font-size: 1.3em;
+  /* font-weight: 500; */
+}
+.studentName > span,
+.studentEmail > span {
+  width: 25vh;
+  height: 5vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+   margin-top: -0.4rem;
+  font-size: 1.1rem;
+  padding: 0.7rem;
+}
+.studentEnrollNo > span {
+  width: 5vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+
+/* Exam Section */
+.exam-section {
+  width: 98vw;
+  height: 78vh;
+  background-color: #4b4a4a3c;
+  border: 1px solid black;
+  margin-top: -5px;
+  border-radius: 0.7rem;
+  padding: 0.7rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.exam-left {
+  width: 30vw;
+  height: 75vh;
+  background-color: #ffffffc7;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+.allQueBox {
+  width: 100%;
+  height: 45%;
+  background-color: #4b4a4a3c;
+  margin-top: -0.5rem;
+  border: 1px solid #000;
+}
+.queAboutInfo {
+  width: 100%;
+  height: 50%;
+  background-color: pink;
+  margin-top: 1rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+#queAbout {
+  display: flex;
+}
+#queAbout > span {
+  width: 4vw;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#totalQue {
+  margin-left: 3rem;
+}
+#answered{
+  margin-left: 6.8rem;
+}
+#notAnswered{
+  margin-left: 3.8rem;
+
+}#notVisit{
+  margin-left: 5.2rem;
+  
+}
+
+.exam-right {
+  width: 65vw;
+  height: 75vh;
+  background-color: #ffffffc7;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 5rem;
+  border: 1px solid #000;
+}
+.question{
+  display: flex;
+}
+.queIndex{
+  margin-right: 1rem;
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 1.7rem;
+  /* column-gap: 20px; */
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+.options >div>input{
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.examBtn{
+  /* margin-left: 2rem; */
+  width: 16vw;
+  height:10vh;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3rem;
+
+}
+.btn{
+  width: 6vw;
+  height: 5vh;
+  background-color: #198754;
+  color: #fff;
+  border: 1px solid #198754;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 7rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

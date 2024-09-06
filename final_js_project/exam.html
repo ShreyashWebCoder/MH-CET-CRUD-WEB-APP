@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CET - Examination</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+
+    <div class="container-flud exam">
+        <div class="container-fluid top-container">
+            <div class="left-top-menu">
+                <div class="header-menu">
+                    <img src="https://pinnacle.works/wp-content/uploads/2022/06/dummy-image.jpg" alt="">
+                    <div>
+                        <h4>Student Name: <span id="studentName"></span></h4>
+                        <h6>Email: <span id="studentEmail"></span></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="right-top-menu">
+                <h4>Enrollment No. <span id="studentRollNo"></span></h4>
+            </div>
+        </div>
+        <div class="container-fluid bottom-container">
+
+            <div class="bottom-left-container">
+                <div class="qu-box" id="questionBox">
+                    
+                </div>
+                <div class="summery">
+                    <h5>Total Question: 4</h5>
+                    <h5>Answerd: 4</h5>
+                    <h5>Not Answerd: 4</h5>
+                    <h5>Not Visited: 4</h5>
+                </div>
+            </div>
+            <div class="bottom-right-container">
+                <h3 id="questionString"></h3>
+                <div class="options">
+                    <div class="inp">
+                        <input id="option1Value" value="" type="radio" name="n">
+                        <h4 id="option1"></h4>
+                    </div>
+                    <div class="inp">
+                        <input id="option2Value" type="radio" name="n">
+                        <h4 id="option2"></h4>
+                    </div>
+                    <div class="inp">
+                        <input id="option3Value" type="radio" name="n">
+                        <h4 id="option3"></h4>
+                    </div>
+                    <div class="inp">
+                        <input id="option4Value" type="radio" name="n">
+                        <h4 id="option4"></h4>
+                    </div>
+                    
+                </div>
+
+                <div class="buttons">
+                    <button class="btn btn-primary" onclick="prevFun()">Prev</button>
+                    <button class="btn btn-primary" onclick="nextFun()">Next</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="./js/exam.js"></script>
+</body>
+</html>
